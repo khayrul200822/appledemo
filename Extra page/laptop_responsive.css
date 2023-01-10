@@ -1,0 +1,27 @@
+@media screen and (max-width:1176px) {
+    .container {
+        max-width: 980px;
+        margin: auto;
+    }
+    .website_navbar{
+        width: 780px;
+    }
+    .pro_singleBox{
+        width: 230px;
+    }
+    .box_img img{
+        width: 100%;
+    }
+    .section_title h3{
+        font-size: 40px;
+    }
+    #contact_section .contact_info .contact_form{
+        width: 50%;
+    }
+    .form_info input{
+        width: 370px;
+    }
+    #footer_section .side_links .link_box{
+        margin-right: 100px;
+    }
+}

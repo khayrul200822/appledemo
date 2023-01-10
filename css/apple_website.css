@@ -1,0 +1,483 @@
+/*google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+button {
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 58px;
+    width: 490px;
+}
+
+
+section#header_section {
+    height: 100vh;
+    background: url(../image/banner_.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    background-size: cover;
+}
+
+.top_header {
+    background: linear-gradient(90deg, #F4F4F4, #F4F4F4, #FF4B69, #FF4B69);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.top_header_sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #FF4B69;
+    padding: 2px;
+}
+
+.website_navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.website_navbar ul li {
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    padding: 16px 0px;
+}
+.website_navbar ul li:last-child{
+    margin-right: 0;
+}
+.website_navbar ul {
+    float: right;
+}
+
+.website_navbar {
+    background: #FF4B69;
+    box-sizing: border-box;
+    border-left: 100px solid #F4F4F4;
+    border-bottom: 62px solid transparent;
+    font-size: 20px;
+    width: 998px;
+    height: 40px;
+}
+
+.website_logo {
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.title_info {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title_info h1 {
+    color: #FF3556;
+}
+
+.title_info button#button,
+button#button {
+    padding: 15px 50px;
+    font-weight: 600;
+    background: black;
+    color: white;
+    margin-top: 54px;
+    border: none;
+    transition: .6s;
+}
+
+.title_info h3 {
+    margin-bottom: 10px;
+}
+
+button#button:hover {
+    background: #FF3556;
+    transition: .6s;
+    border-radius: 50px;
+}
+
+.website_navbar ul li a:hover {
+    color: black;
+    transition: .4s;
+}
+
+/* header section end*/
+
+/*about section start*/
+.about_section_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_title {
+    max-width: 565px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_title p {
+    text-align: center;
+}
+
+.section_title h3 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.section_title h3:after {
+    content: "";
+    width: 100px;
+    display: block;
+    border-bottom: 3px solid #FF3556;
+    margin-bottom: 15px;
+}
+
+.middle_image {
+    margin: 30px 0px;
+}
+
+.middle_image img {
+   max-width: 1042px;
+}
+
+.about_button #button a {
+    color: white;
+}
+
+/*about section end*/
+/*product section start*/
+.pro_title {
+    align-items: flex-start;
+}
+
+.pro_title p {
+    text-align: left;
+
+}
+
+.product_box {
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+}
+
+.pro_singleBox {
+    box-sizing: border-box;
+    width: 280px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+section#product_section {
+    background: #F4F4F4;
+}
+
+.box_img {
+    background: white;
+    padding: 10px;
+}
+
+.box_content {
+    padding: 10px 15px;
+}
+
+.box_content a {
+    color: #FF3556;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.box_content h3 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.pro_singleBox:hover {
+    box-shadow: 1px 1px 7px 3px #efaeb4b8;
+    transition: .5s;
+    transform: translate(0px, -21px);
+}
+
+.pro_singleBox:hover .box_content {
+    background: white;
+    transition: .5s;
+}
+
+
+/*product section end*/
+
+/*extra section start*/
+
+.extra_sec_sub {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ex_sec_content {
+    background: #FF4B69;
+    width: 60%;
+    border-radius: 2% 2% 45% 2% / 2% 2% 36% 2%;
+    box-shadow: 14px 12px 14px 5px #ff4b6978;
+}
+
+.content_sub {
+    padding: 85px 10px;
+}
+
+.ex_sec_info {
+    align-items: flex-start;
+}
+
+.ex_sec_info:after {
+    content: "";
+    border-bottom: 1.5px solid white;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.ex_sec_info p {
+    text-align: left;
+    line-height: 1.7em;
+    color: white;
+}
+
+.ex_sec_info h3 {
+    color: white;
+}
+
+.ex_sec_info h3:after {
+    border-color: white;
+}
+
+.ex_sec_button #button:hover {
+    background: white;
+    color: black;
+    border-radius: 0% 0% 30% 10% / 7% 10% 50% 0%;
+    box-shadow: 9px 6px 7px 0px #00000080;
+}
+
+.ex_sec_img {
+    width: 40%;
+}
+
+
+
+.ex_sec_img img {
+    max-width: 100%;
+    margin-left: 50px;
+}
+
+/*extra section end*/
+/*gallary section start*/
+
+.gallary_sec_title {
+    margin: auto;
+}
+
+.gallay_boxs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+    margin-top: 50px;
+}
+
+section#gallary_section {
+    background: #F4F4F4;
+}
+
+.gallay_boxs .single_g_box {
+    background: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.single_g_box img {
+    width: 100%;
+    transition: .5s;
+}
+
+.gallay_boxs .single_g_box img:hover {
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+/*gallary section end*/
+
+/*contact section end*/
+#contact_section {
+    background: url(/image/background_contact_page.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#contact_section .contact_info {
+    display: flex;
+}
+
+#contact_section .contact_info .contact_map {
+    margin-right: 30px;
+    width: 100%;
+}
+
+#contact_section .contact_info .contact_form {
+    background: #F4F4F4;
+}
+
+#contact_section .contact_info .contact_form form {
+    padding: 70px 50px;
+}
+
+.form_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_info input {
+    padding: 15px 10px;
+    width: 450px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    box-shadow: 1px 0px 10px 1px #00000054;
+    border: navajowhite;
+    border-radius: 5px;
+}
+
+.form_info textarea#message {
+    border: none;
+    box-shadow: 1px 0px 10px 1px #00000054;
+}
+
+
+/*contact section end*/
+/*footer section end*/
+
+.subscribe_title {
+    margin: auto;
+    color: white;
+}
+
+.subscribe_form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 730px;
+    margin: auto;
+}
+
+.subscribe_form input#email {
+    font-size: 18px;
+    padding: 10px 25px;
+    height: 45px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #00000070;
+}
+
+.subscribe_form button#button {
+    position: absolute;
+    right: 4px;
+    top: -50px;
+    border-radius: 50px;
+    padding: 18px 56px;
+    font-size: 18px;
+}
+
+section#footer_section {
+    background: black;
+    padding-bottom: 0;
+}
+
+#footer_section .side_links {
+    display: flex;
+    color: white;
+    margin: 60px 0px;
+}
+
+#footer_section .side_links .link_box {
+    margin-right: 206px;
+}
+#footer_section .side_links .link_box:last-child{
+    margin-right: 0;
+}
+#footer_section .side_links .link_box ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#footer_section .side_links .link_box ul {
+    margin-top: 25px;
+}
+#footer_section .side_links .link_box ul li a {
+    color: white;
+}
+#footer_section .side_links .link_box ul li i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.subscribe_title h3 {
+    font-size: 35px;
+}
+section#footer_section hr {
+    margin: 60px 0px;
+}
+.copyright_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF3556;
+    padding: 20px 0px;
+    color: white;
+}
+.copyright_content a {
+    margin-left: 0px;
+    color: black;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.copyright_content a:hover {
+    color: white;
+    transition: .3s;
+    text-decoration: underline;
+}
+/*footer section end*/
